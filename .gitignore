@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+*.env
+secrets.py
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Generated artifacts
+data/*
+!data/profiles.json
+runs/
+logs/
+figs/
+dialogs/
+experiment_results/
+*.pkl
+*.pickle
+*.zip
+*.log
+submission.zip
+
+# Paper outputs are generated outside this artifact repo.
+paper/generated_tables/
+paper/generated_tex/
